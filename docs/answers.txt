@@ -1,0 +1,75 @@
+1.  PS C:\Users\19548\OneDrive\CodeHW\CEN\projects\assignment2> git push
+    Enumerating objects: 11, done.
+    Counting objects: 100% (11/11), done.
+    Delta compression using up to 8 threads
+    Compressing objects: 100% (6/6), done.
+    Writing objects: 100% (9/9), 1.03 KiB | 264.00 KiB/s, done.  
+    Total 9 (delta 2), reused 0 (delta 0), pack-reused 0
+    remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+    To https://github.com/ambitiousjulian/assignment2.git
+    f4975e5..b833924  master -> master
+    PS C:\Users\19548\OneDrive\CodeHW\CEN\projects\assignment2> 
+
+2.
+    8
+    git rev-list --all --count
+
+3.
+    Fri Oct 14 21:27:11 2022 -0400
+    PS C:\Users\19548\OneDrive\CodeHW\CEN\projects\assignment2> git log -n 1 --pretty=format:%cd \Users\19548\OneDrive\CodeHW\CEN\projects\assignment2\README.md
+
+4.
+    a branch is a method to allow for different working directories. It also 
+    allows for seperate users to be able to experiment different features
+    without being able to mess with the main branch.
+
+5.  
+    git status allows for one to view the working directory and the updates that have been made int he 
+    staging area. Git log allows one to view the commited history
+
+6. 
+    git log --follow -- Vehicle.h
+
+    commit 03106e92a1e36708334c69dd071088c6d0937b1d
+    Author: Esteban Parra <estebanpr014@gmail.com>
+    Date:   Wed Sep 11 16:58:59 2019 -0400
+
+    -> Declared the trivial destructors for all classes      
+    -> Fully formatted toString methods for all classes      
+    -> Added test cases in the main method for testing the implementations
+    -> Added validation on value for engine sizes in the  Car class
+
+    commit f9cd890b3f89fbe5920a1fdf7da34ee915ba27b9
+    Author: Esteban Parra <estebanpr014@gmail.com>
+    Date:   Thu Sep 5 18:42:39 2019 -0400
+
+    -> Partial implementation of PoweredVehicle and Car
+    -> Definition of virtual functions
+
+    commit f9c24b027e6275ff6a1911241014c44971b4e8d0
+    Author: Esteban Parra <estebanpr014@gmail.com>
+    Date:   Thu Sep 5 18:04:36 2019 -0400
+
+7.
+    git log --grep "file"
+
+8.
+    inheritance: is where a class can be derived from another class so they have access to all of the features
+    of a certain class. 
+
+    polymorphism: is where a an interface can be represented by several different data types
+
+    encapsulation: is the practice of hiding all of the values in an object of a class by keeping them all 
+    private.
+
+9.
+    this workflow is when a repository has hundreds of developers
+    and the managers of the of the repo are called the lieutenants.
+    the integration workflow is when a single integration manager can handle
+    the source code contributions.
+
+10.
+    dictator and lietanant workflow can benefit a repository 
+    that contains a large amount of variables because with the availabilty
+    of many repositories the likeliness of a single developer ruining the 
+    master branch is tremendously reduced.
